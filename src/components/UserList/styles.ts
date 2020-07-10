@@ -40,6 +40,7 @@ export const User = styled.div`
   padding: 5px;
   display: flex;
   align-items: center;
+  
   cursor: pointer;
   border-radius: 4px;
   background: transparent;
@@ -73,11 +74,13 @@ export const User = styled.div`
 
 export const Avatar = styled.div`
   flex-shrink: 0;
+
   width: 32px;
   height: 32px;
+  
   border-radius: 50%;
   background-color: var(--primary);
-  
+
   &.bot {
     background-color: var(--mention-detail);
   }
